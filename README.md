@@ -16,7 +16,7 @@ Demir Üniversite okulumuzun anasayfasında üst menü ve bu menülerde aşağı
 
 Her başlığın kendine özgü arayüzü vardır. “Bölümler” ve “Öğrenciler” başlığına gelindiğinde alt menü açılmaktadır. Menü altında okulumuzun fotoğrafı yer almaktadır.
 
-![Okulumuzun Fotoğrafı](path_to_image)  
+![1](https://github.com/user-attachments/assets/2af495e5-8057-4d74-9b9d-8fa4b7112807)
 *Okulumuzun Fotoğrafı*
 
 Okulumuzun fotoğrafından sonra **"T.C. Milli Eğitim Bakanlığı Haberleri"** yer almaktadır ve her haber aktif olarak çalışmaktadır.
