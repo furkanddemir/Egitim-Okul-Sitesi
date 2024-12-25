@@ -78,10 +78,4 @@ Okulumuzdaki **"Bilgisayar Programcılığı Bölümü"** dersleri, bölümdeki 
 
 ---
 
-## Kurulum
 
-Projeyi bilgisayarınıza indirmek için aşağıdaki adımları takip edebilirsiniz:
-
-1. Bu repo'yu bilgisayarınıza klonlayın:
-   ```bash
-   git clone https://github.com/username/repository-name.git
