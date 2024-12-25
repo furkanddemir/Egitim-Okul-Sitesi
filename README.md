@@ -21,12 +21,12 @@ Her başlığın kendine özgü arayüzü vardır. “Bölümler” ve “Öğre
 
 Okulumuzun fotoğrafından sonra **"T.C. Milli Eğitim Bakanlığı Haberleri"** yer almaktadır ve her haber aktif olarak çalışmaktadır.
 
-![MEB Haberleri](path_to_image)  
+![2](https://github.com/user-attachments/assets/20e1931e-1c72-43ca-ab00-8153bbce1ae6)
 *T.C. Milli Eğitim Bakanlığı Haberleri*
 
 **"İstanbul Demir Üniversitesi Okulumuzdan Fotoğraflar"** başlığı altında fotoğraflar yer almaktadır.
 
-![Okul Fotoğrafları](path_to_image)  
+![3](https://github.com/user-attachments/assets/9aee83c2-4d37-45b5-bd53-fb305c1f9981)
 *İstanbul Demir Üniversitesi Fotoğrafları*
 
 ---
@@ -35,17 +35,17 @@ Okulumuzun fotoğrafından sonra **"T.C. Milli Eğitim Bakanlığı Haberleri"**
 
 Üst menüden **"Bölümler"** başlığına gelindiğinde alt menü açılır ve okuldaki bölümler gösterilir.
 
-![Bölümler](path_to_image)  
+![4](https://github.com/user-attachments/assets/deb43147-29be-4b67-8309-b31cd40760b3)
 *Bölümler Menüsü*
 
 Bu sayfada okulumuzdaki **"Bilgisayar Programcılığı Bölümü"** ile ilgili bilgiler verilmektedir.
 
-![Bilgisayar Programcılığı](path_to_image)  
+![5](https://github.com/user-attachments/assets/9b7a109f-e944-432a-8701-53d879cd3d34)
 *Bilgisayar Programcılığı Bölümü*
 
 Okulumuzdaki **"Bilgisayar Programcılığı Bölümü"** dersleri, bölümdeki öğretim elemanlarını, bölüm başkanını ve bölüm ücretini veritabanından çekerek tablo halinde gösterir.
 
-![Bölüm Dersleri](path_to_image)  
+![6](https://github.com/user-attachments/assets/a9fa8c0e-186d-4ff7-b4d5-c845dbcf9eb3)
 *Bilgisayar Programcılığı Dersleri*
 
 ---
@@ -54,17 +54,17 @@ Okulumuzdaki **"Bilgisayar Programcılığı Bölümü"** dersleri, bölümdeki 
 
 Üst menüden **"Öğrenci"** başlığına gelindiğinde alt menü açılır ve öğrenci ile ilgili işlemler gösterilir.
 
-![Öğrenci Menüsü](path_to_image)  
+![7](https://github.com/user-attachments/assets/139a6bbd-87ad-48c6-b6f2-d6d145b44ee2)
 *Öğrenci Menüsü*
 
 **"Kayıtlı Öğrenci Ara"** seçeneği ile okulda kayıtlı olan öğrencinin bilgilerini veritabanından çekilerek tablo halinde gösterilir.
 
-![Kayıtlı Öğrenci Ara](path_to_image)  
+![8](https://github.com/user-attachments/assets/a80add9e-0a57-4778-9578-c50f994a8274)
 *Kayıtlı Öğrenci Ara*
 
 **"Kayıtlı Öğrenciler"** seçeneği ile okulda kayıtlı olan tüm öğrencilerin bilgilerini veritabanından çekilerek tablo halinde gösterilir.
 
-![Kayıtlı Öğrenciler](path_to_image)  
+![9](https://github.com/user-attachments/assets/2a558af8-886a-429b-80ec-f5d94824b078)
 *Kayıtlı Öğrenciler Tablosu*
 
 ---
