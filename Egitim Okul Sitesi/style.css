@@ -1,0 +1,177 @@
+* {
+  margin: 0;				/*Dış kenar boşlukları 0'lar*/
+  padding: 0;				/*İç kenar boşlukları 0'lar*/
+  box-sizing: border-box;   
+}
+
+body {
+  font-family: sans-serif; /*Yazı Tipi*/
+  background: white; 	   /*Sayfanın arka plan rengi*/	
+  margin:0;				   /*Sayfanın kenara ne kadar yakınlaşacağı*/	
+  padding:0;		
+  display: flex;			
+  flex-direction: column;		
+  justify-content: center; /* Yatay olarak ortalar*/
+  align-items: center;	   /*Dikey olarak ortalar*/	
+
+  
+}
+
+
+.menu {
+  background-color: #141d28;	/*Menünün arka plan rengi*/
+  height: 180px;				/*Menünün yüksekliği*/
+  width: 100%;					/*Menünün genişliği*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;				/*İç kenar boşlukları*/
+  position: relative;
+}
+
+.menu ul {				/*Alt menüler*/
+  list-style: none;		/*Menüdeki başlıkların madde işaretleri gözükmez*/
+  display: flex;		/*Başlıkları menüye yatay şekilde sıralar*/
+}
+
+.menu ul li {
+  padding: 10px 30px;	/*Menüdeki başlıkların aralığını ayarlar*/
+  position: relative;	/*Alt başlıkları başlığın altında gösterir*/
+}
+
+.menu ul li a {
+  font-size: 20px; 			/*Menüdeki başlıkların yazı boyutu*/
+  color: #e9e9e9;			/*Başlıkların yazı rengi*/
+  text-decoration: none;	/*Başlıkların altındaki çizgiyi kaldırır.*/	
+}
+
+.menu ul li a:hover {
+  color: #0073ff;   /*Başlığın üzerine gelindiğide rengi değişir*/
+}
+
+
+.acilir-menu {
+  display: none;  /*Açılır menüyü görünmez yapar*/
+}
+
+.menu ul li:hover .acilir-menu {
+  display: block;				/*Açılır menüyü görünür yapar*/
+  position: absolute;			/*Mutlak konum*/
+  background-color: #141d28;	/*Açılır menünün arka plan rengi*/
+}
+
+.menu ul li:hover .acilir-menu ul {
+  display: block;				/*Alt başlıkların arka planını görünür yapar*/
+  margin: 25px;					/*Kutunun kenar boşlukları*/
+}
+
+
+.acilir-menu ul li:hover .acilir-menu-1 {
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 0;
+  background-color: #141d28;
+}
+
+.sosyal-medya img {
+    width: 50px; 
+    height: 50px;
+    margin: 0 15px; 
+}
+
+
+.metinler{
+    text-align: justify; 	/* Metni iki yana yaslamak için */
+    font-size: 18px; 		/* Yazı boyutunu büyütmek için */
+}
+
+h1 {							/* h1 Başlık Özellikleri*/
+	font-size: 35px;
+	background:  #212b38;
+	padding: 20px 0;
+	text-align: center;
+	color: white;
+	width:100%;
+}
+
+h3 {						/* h3 Başlık Özellikleri*/
+	font-size: 26px;
+	padding: 20px 0;
+	text-align: left;
+
+}
+
+	
+.haberler {
+    display: flex;					/*Haberleri yan yana sıralar*/
+    flex-wrap: wrap;				/*Yazı ekrana sığmazsa alt satıra geçer*/
+    justify-content: space-between;	/*Haber kutularının arasındaki boşluk ayarı*/
+	
+}
+
+.haberler img {
+	border-radius: 7px;				/*Resmin köşelerine yuvarlaklık katar*/
+    width: 400px;					/*Resmin genişliği*/
+    height: auto;					/*Resim boyutunu otomatik ayarlar*/
+    margin-right: 1px;				/*Resme kenarına boşluk ekler*/
+    border: 3px solid #141d28;		/*Resme kenarlık ekler*/
+
+}
+
+.alt-yazi {							/*Haberlerin altındaki yazı özellikleri*/
+  margin-top: 30px;					/*Resim ile yazı arasına boşluk ekler*/
+  font-weight: bold;				/*Resimin altındaki yazıyı kalın yapar*/
+  color: #333;						/*Metnin rengi*/
+  text-align: center;				/*Metnin konumu*/
+  
+}
+
+#anasayfa{							/*Anasayfanın özellikleri*/
+	width:100%;						/*Anasayfanın genişliği*/
+	height: auto;					/*Anasayfanın yüksekliği*/
+	background-color:#74F9FF;		/*Anasayfanın arka plan rengi*/
+	
+}
+
+.galeri {							/*Okulumuzdan Fotoğraflar Özellikleri*/							
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));	/*Resmi ekrana sığdırır*/
+    grid-gap: 30px;					/*Resimler arasındaki boşluk*/
+    padding: 250px;					/*resimlerin iç kenarlıklarına boşluk verir*/
+}
+
+.image {						/*img olan resimlerin özellikleri*/
+    border-radius: 7px;			/*Resimlerin köşelerine yuvarlaklık katar*/
+	border: 3px solid #141d28;	/*Resimlerin dış kenarlık kalınlığı ve rengi*/
+}
+
+.image img {
+    width: 100%;				/*Resimin genişliği*/
+    height: auto;				/*Resimin yüksekliği*/
+}
+
+#ust-bolum{								/*Sayfaların üstünde bulunan Fotoğrafın özellikleri*/
+	width:100%;							/*Resimin genişliği*/
+	height: 600px;						/*Resimin yüksekliği*/
+	background-image: url("images/okulfoto.png"); /*Resimin yolu*/
+	background-position: center;		/*Resimin konumu*/
+	background-attachment: fixed; /*Görselin sabit durmasını sağlar*/
+}
+
+#bilgisayar{
+	width:100%;							/*Resimin genişliği*/
+	height: 600px;						/*Resimin yüksekliği*/
+	background-image: url("images/bilgisayar.png");		/*Resimin yolu*/
+	background-position: center;	/*Resimin konumu*/
+	background-attachment: fixed; /*Görselin sabit durmasını sağlar*/
+}
+
+#elektrik-elektronik{
+	width:100%;						/*Resimin genişliği*/
+	height: 600px;					/*Resimin yüksekliği*/
+	background-image: url("images/elektrik.png");	/*Resimin yolu*/
+	background-position: center;		/*Resimin konumu*/
+	background-attachment: fixed; /*Görselin sabit durmasını sağlar*/
+}
+
